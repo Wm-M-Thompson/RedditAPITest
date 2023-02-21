@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<LangVersion>10</LangVersion>
+		<RootNamespace>ThompsonSolutions.$(MSBuildProjectName)</RootNamespace>
+		<AssemblyName>ThompsonSolutions.$(MSBuildProjectName)</AssemblyName>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<nullable>enable</nullable>
+		<Authors>ThompsonSolutions</Authors>
+		<Company>Thompson Solutions</Company>
+		<Product>Reddit Stream Tracker</Product>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reddit.Core\Reddit.Core.csproj" />
+    <ProjectReference Include="..\Reddit.Data.Core\Reddit.Data.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Reddit": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:65510;http://localhost:65511"
+    }
+  }
+}
